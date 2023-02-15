@@ -11,6 +11,7 @@ import DynamicPArallelQueries from "./components/DynamicPArallelQueries";
 import DependantQueries from "./components/DependantQueries";
 import PaginatedQueries from "./components/PaginatedQueries";
 import InfiniteQueries from "./components/InfiniteQueries";
+import SaveRQHero from "./components/SaveRQHero";
 const Router  = () => {
     return useRoutes([
         {
@@ -57,6 +58,10 @@ const Router  = () => {
                 {
                     path : "rq-infinite-qr",
                     element : <InfiniteQueries/>
+                },
+                {
+                    path : "rq-save-hero",
+                    element : <SaveRQHero/>
                 }
             ]
         }

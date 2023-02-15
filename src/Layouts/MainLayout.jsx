@@ -34,6 +34,9 @@ export default function MainLayout() {
             <li>
               <Link style={{textDecoration : "none"}} to='/rq-infinite-qr'>Infinite queries</Link>
             </li>
+            <li>
+              <Link style={{textDecoration : "none"}} to='/rq-save-hero'>Save Hero</Link>
+            </li>
           </ul>
         </nav>
         <div>
